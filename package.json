@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-exercise-1": "node --max-old-space-size=30 src/exercise-1"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
     "url": "https://github.com/atondelier/training-node-memory-management/issues"
   },
   "homepage": "https://github.com/atondelier/training-node-memory-management#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "connect": "3.7.0"
+  }
 }
