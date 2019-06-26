@@ -16,15 +16,6 @@ but you are not one of them.
 ## Proceed
 
 
-### Install
-
-Install the application
-
-```
-nvm i && npm i
-```
-
-
 ### Start
 
 Run the exercise application
@@ -63,7 +54,7 @@ is managing that.
 ```
 
 </p>
-</details>  
+</details>
 
 
 #### What is filling memory space?

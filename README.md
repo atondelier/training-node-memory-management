@@ -3,11 +3,10 @@
 
 ## Goals
 
-This training aims at
+This training aims at learning 3 things:
  - identifying the main reasons for a having memory leaks in a JS application
- - inspecting an application with the dev tools
-   - to search for the leaks
-   - and then search for the actual reasons
+ - inspecting an application with the dev tools to search for the leaks
+ - monitoring an application to avoid surprises!
 
 
 ## Prerequisites
@@ -18,16 +17,36 @@ This training aims at
 
 ## How to
 
-Each exercise has its own README.
+
+### Install
+
+Install the application
+
+```
+nvm i && npm i
+```
 
 
 ## Exercises
 
+Each exercise has its own README.
+Click on the each title to open it.
 
-### Exercise 1
 
-[Exercise 1](./src/exercise-1)
+### [Exercise 1](./src/exercise-1)
 
 This exercise makes you experiment the DevTools memory features.
 You will learn how to find a memory leak.
-You will also learn also a tricky cause of leak with the V8 engine.
+You will also learn a tricky cause of leak with the V8 engine.
+
+
+### [Exercise 2](./src/exercise-2)
+
+This exercise makes you play with references.
+You will learn that references are not of one single type!
+
+
+### [Exercise 3](./src/exercise-3)
+
+This exercise makes you play with prometheus metrics about memory.
+You will learn that references are not of one single type!

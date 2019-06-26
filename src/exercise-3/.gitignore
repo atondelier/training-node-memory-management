@@ -1,0 +1,2 @@
+prometheus-data/storage/*
+!prometheus-data/storage/.gitkeep

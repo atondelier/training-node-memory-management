@@ -33,5 +33,6 @@ server.listen(3000);
 
 module.exports = {
   taskQueue,
+  app,
   server,
 };

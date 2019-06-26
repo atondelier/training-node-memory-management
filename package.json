@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start-exercise-1": "node --max-old-space-size=30 src/exercise-1"
+    "start-exercise-1": "node --max-old-space-size=30 src/exercise-1",
+    "start-exercise-2": "node --expose-gc src/exercise-2",
+    "start-exercise-3": "node --max-old-space-size=30 src/exercise-3"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,10 @@
   "description": "",
   "dependencies": {
     "chalk": "2.4.2",
-    "connect": "3.7.0"
+    "connect": "3.7.0",
+    "prom-client": "11.5.2"
+  },
+  "optionalDependencies": {
+    "prometheus-gc-stats": "0.6.2"
   }
 }
